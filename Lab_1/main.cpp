@@ -29,6 +29,7 @@ int main() {
     }
     cout<< "----------------ВЫВОД----------------"<<endl;
     for (int i = 0; i<n; i++) ppA[i]->print();
+    delete ppA[i];
     delete [] ppA;
     return 0;
 }
